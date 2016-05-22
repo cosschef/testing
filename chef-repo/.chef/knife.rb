@@ -1,0 +1,9 @@
+log_level                :info
+log_location             STDOUT
+node_name                'cosschef'
+client_key               '/root/chef-repo/.chef/cosschef.pem'
+validation_client_name   'chef-validator'
+validation_key           '/root/chef-repo/.chef/chef-validator.pem'
+chef_server_url          'https://192.168.0.10:443'
+syntax_check_cache_path  '/root/chef-repo/.chef/syntax_check_cache'
+cookbook_path		'/root/chef-repo/cookbooks'
